@@ -1,12 +1,82 @@
 body {
-  padding: 50px;
+  padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  border: solid 1px green; }
+  color: black;
+  background-color: #9afaf5; }
 
 a {
   color: #00B7FF; }
 
 .container {
-  border: solid 1px blue !important; }
+  background-color: #de9cb9; }
+
+.divline {
+  border-bottom: solid 2px pink; }
+
+.nav1 {
+  text-align: right; }
+
+.socials {
+  position: relative;
+  top: -50px;
+  left: -5px;
+  text-align: right;
+  text-decoration: none; }
+
+.socials a {
+  text-decoration: none; }
+
+.fa-facebook {
+  border-radius: 10px;
+  background: #3B5998;
+  color: white;
+  padding: 5px;
+  padding-bottom: 2px; }
+
+.fa-instagram {
+  border-radius: 5px;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white; }
+
+.bi-check-circle {
+  font-size: 80px;
+  color: #9afaf5; }
+
+h2 {
+  margin-bottom: 2px; }
+
+hr {
+  margin: 0px;
+  margin-bottom: 4px; }
+
+@media only screen and (min-width: 600px) {
+  h1.socials {
+    height: 0px; }
+  .content {
+    min-height: 200px;
+    padding-top: 45px;
+    padding-right: 14px;
+    padding-left: 4px; }
+  .myCard {
+    background-color: #efcedc;
+    border-radius: 20px;
+    box-shadow: 7px 7px 3px #e7b7cc;
+    box-sizing: border-box; }
+  .images .myCard {
+    padding-top: 1px;
+    box-shadow: none; } }
+
+@media only screen and (max-width: 600px) {
+  .socials {
+    position: inherit;
+    text-align: center; }
+  .socials .fa-instagram {
+    margin-left: 25px; }
+  .bi-check-circle {
+    font-size: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
